@@ -6,5 +6,5 @@ namePrefix: kustomize-
 resources:
 - nginx-deployment.yaml
 - nginx-svc.yaml
-commonChannel:
-  annotations: kustomization-demo
+commonAnnotations:
+  Channel: kustomization-demo
